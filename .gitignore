@@ -1,0 +1,106 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Model files (trained models - too large for git)
+*.pkl
+*.h5
+*.joblib
+*.sav
+*.model
+
+# TensorFlow
+*.ckpt
+*.ckpt.*
+checkpoint
+*.pb
+saved_model/
+
+# PyTorch
+*.pth
+*.pt
+
+# Logs
+*.log
+logs/
+*.out
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.bak
+
+# Matplotlib/Plots
+*.png
+*.jpg
+*.jpeg
+*.gif
+figures/
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# Environment variables
+.env
+.env.local
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Documentation files (keeping only README.md)
+UPGRADE_GUIDE.md
+BEFORE_AFTER_COMPARISON.md
